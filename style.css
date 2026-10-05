@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 body {
     background-color: grey;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: dm sans, sans-serif;
     color: #222;
 }
 
@@ -16,9 +18,11 @@ header {
     background-color: #222;
 }
 
+
 header p {
     color: crimson;
     font-size: 1.1rem;
+    font-weight: bold;
 }
 
 h1 {
@@ -42,6 +46,14 @@ section {
     background-color: aliceblue;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+.como {
+    background-color: burlywood;
+}
+
+#comofunciona {
+    background-color: azure;
 }
 
 footer {
