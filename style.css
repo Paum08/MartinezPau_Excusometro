@@ -64,12 +64,29 @@ section {
     background-color: aliceblue;
     padding: 20px;
     margin-bottom: 20px;
+    border-radius: 15px;
 }
 
-.como {
-    background-color: burlywood;
+section img{
+    height: 5em;
+    width: 5em;
 }
 
+section input{
+    margin: 15px;
+    padding: 15px;
+}
+
+div img{
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+
+.boton{
+    display: flex;
+    flex-direction: column;
+}
 #comofunciona {
     background-color: azure;
 }
