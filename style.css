@@ -127,3 +127,51 @@ footer {
     background-position: center;
 }
 
+.panel-estado{
+    margin-top: 1.5em;
+    display: flex;
+
+}
+
+.dato-estado{
+    background-color: aqua;
+    color: black;
+    padding: 1em;
+    margin-bottom: 0.75em;
+    border: 0.15em solid gold;
+    width: 100%;
+    box-sizing: border-box;
+    /* pregunta examen boxsizing */
+}
+
+.etiqueta{
+    font-weight: 700;
+    display: block;
+    font-size: 0.85em;
+    margin-bottom: .3em;
+
+}
+
+.valor{
+    color: crimson;
+    display: inline-block;
+    background-color: blue;
+    padding: .3em ,6em;
+    border: 0.1em solid:black;
+
+}
+
+.nivel-credibilidad{
+    display: inline-block;
+    background-color: blueviolet;
+    color: aqua;
+    padding: .3em .6em;
+    margin-left: .3em;
+}
+
+.grid-evidencias{
+    display: grid;
+    /* grid-template-columns:  1fr 1fr; */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
