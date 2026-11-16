@@ -23,6 +23,7 @@
         <a href="#que-hacemos">Detector</a>
         <a href="#comou">Catalogo</a>
         <a href="#protocolo">Compruebala!</a>
+        <a href="#registro">Registrar excusa</a>
     </nav>
 
     <main>
@@ -48,6 +49,59 @@
                 <li>Calculamos su veracidad</li>
                 <li>Emitimos veredicto</li>
             </ol>
+        </section>
+        <section id="registro">
+            <h2>Registrar una excusa</h2>
+            <p>Introduce los datos del incidenta y evaluaremos la credibilidad del caso</p>
+            <form class="form-excusa" action="">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input id="nombre" type="text" required minlength="2" maxlength="15">
+                </div>
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" required id="email">
+                </div>
+                <div class="campo">
+                    <label for="fecha">Fecha</label>
+                    <input type="date" id="fecha" required>
+                </div>
+                <div class="campo">
+                    <label for="drama">Nivel de dramatismo</label>
+                    <select name="drama" id="drama" required>
+                        <option value="">Seleciona un nivel</option>
+                        <option value="bajo">Bajo</option>
+                        <option value="medio">Medio</option>
+                        <option value="alto">Alto</option>
+                    </select>
+                </div>
+                <fieldset class="campo">
+                    <legend>Categoria principal</legend>
+                    <label for="">
+                        <input type="radio" name="categoria" value="tecnica" required>
+                        Problema Tecnico.
+                    </label>
+                     <label for="">
+                        <input type="radio" name="categoria" value="Organizacion" required>
+                        Problema de Organizacion.
+                    </label>
+                     <label for="">
+                        <input type="radio" name="categoria" value="misterio" required>
+                        Problema inexplicable.
+                    </label>
+                </fieldset>
+                <div class="campo campo-check">
+                    <label for="">
+                        <input type="checkbox" name="declaracion" required> 
+                        Confirmo que esta es mi version de los hechos
+                    </label>
+                </div>
+                <div class="campo">
+                    <label for="excusa">Declaracion completa</label>
+                    <textarea id="excusa" rows="6" minlength="20" maxlength="500" required></textarea>
+                </div>
+                <button type="submit">Validar la excusa</button>
+            </form>
         </section>
         <section id="protocolo">
             <h2>Estado del sistema:</h2>
